@@ -5,3 +5,5 @@ This is not exactly a professional quality generator; it does the bare minimum. 
 Level is allowed to be any value between 0 and 15.  The game will reject anything higher.
 
 Using these values, call create_password(0, feats, swords, shields, magics, items, 0, level, 0)
+
+You may decode a password by calling decode_password(passwordstring).  Spacing doesn't matter in the password string.  It only needs the 6 groups of 3 letters to decode.
