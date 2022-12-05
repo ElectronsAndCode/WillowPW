@@ -197,7 +197,7 @@ def create_password( salt1, ftv, swv, shv, mgv, itv, v10, lv, salt2 ):
     shv   - A bitmap of owned shields.  Use the shield array for reference
     mgv   - A bitmap of learned magics.  Use the magic array for reference
     itv   - A bitmap of collected items.  See the item array for reference
-    v10   - Possibly unused.  Range 0-255
+    v10   - Mostly unused.  32 enables debug mode.
     lv    - Willow's level.  Range 0-15
     salt2 - A second arbitrary number.  Range 0-7
     """
